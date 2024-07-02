@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+  }
+
+  body{
+    width: 100%; 
+  }
+
+  .container {
+    height: 100vh;
+    width: 100%;
+    background-size:auto;
+   
+    /* padding-right: 5%; */
+    position:relative;
+    
+ }
+
+  .navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin:auto;
+    padding:1px ;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ header{
+  background-color: #86593b;
+ }
+ header::after{
+  content:'';
+  display:table ;
+  clear: both;
+ }
+
+nav {
+  /* flex: 1; */
+  padding-left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed; */
+  float:right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 30px;
+  justify-items: center;
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: #edf2f3;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #f3ffb6;
+}
+
+.left{
+  padding-top: 4%;
+  padding-left: 10%;
+}
+ .left h1{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 50px;
+letter-spacing: 1.5px;
+word-spacing: 0.4px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+ }
+ 
+.left h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 0.4px;
+  color: #000000;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+ 
+  }
+
+.left img{
+   width: 40%;
+   height: 48%;
+}
+.left p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#141313;
+  position:absolute;
+  top: 148%;
+  left:10%;
+  letter-spacing: 1px;
+}
+.left button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 160%; /* Adjust top position as needed */
+  left:23%; /* Adjust right position to align with h3 */
+  padding: 10px 20px;
+  background-color: #86593b;
+  color: white;
+  border: none;
+  border-radius:7%;
+  cursor: pointer;
+}
+.left button:hover{
+  background-color: #5f3b23;
+}
+.d1 img{
+  /* padding-left: 30%; */
+   position:absolute;
+  top:41%;
+   left:57%;
+   size: 20px;
+   width:18%;
+   height:45%;
+   border-radius:2%;
+}
+
+.d1 h2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#000000;
+  position:absolute;
+  top:53%;
+  right:10%;
+}
+.d1 p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#141313;
+  position:absolute;
+  top:60%;
+  right:7%;
+}
+.d2 img{
+  /* padding-left: 30%; */
+   position:absolute;
+  top:94%;
+   left:57%;
+   size: 20px;
+   width:18%;
+   height:45%;
+   border-radius:2%;
+}
+.d2 h2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#000000;
+  position:absolute;
+  top:107%;
+  right:8%;
+}
+.d2 p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#141313;
+  position:absolute;
+  top:115%;
+  right:8%;
+}
+.right{
+  display:flex;
+ justify-content: right;
+}
+.d1 button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 70%; /* Adjust top position as needed */
+ right:11%; /* Adjust right position to align with h3 */
+  padding: 10px 20px;
+  background-color: #86593b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.d1 button:hover {
+  background-color: #5f3b23;
+}
+.d2 button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 125%; /* Adjust top position as needed */
+ right:11%; /* Adjust right position to align with h3 */
+  padding: 10px 20px;
+  background-color: #86593b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.d2 button:hover {
+  background-color: #5f3b23;
+}
+
+.recipe-categories {
+  
+  display:flex;
+ justify-content: right;
+ top:183%;
+}
+
+/* .category {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+} */
+.recipe-categories h2{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#000000;
+  position:absolute;
+  top:180%;
+  right:42%;
+}
+
+.category1 img {
+  position:absolute;
+  top:190%;
+   left:20%;
+   
+  width: 250px;
+  height: 250px; 
+  /* overflow: hidden; */
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.category1 h3{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#1a1919;
+  position:absolute;
+  top:220%;
+  left:25%;
+  font-weight:normal;
+  
+}
+
+.category1 button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 125%; /* Adjust top position as needed */
+ right:11%; /* Adjust right position to align with h3 */
+  padding: 10px 20px;
+  background-color: #86593b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.category1 button:hover {
+  background-color: #5f3b23;
+}
+.category2 img {
+  position:absolute;
+  top:190%;
+   left:42%;
+   
+  width: 250px;
+  height: 250px; 
+  /* overflow: hidden; */
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.category2 h3{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#1a1919;
+  position:absolute;
+  top:220%;
+  left:47%;
+  font-weight:normal;
+  
+}
+
+.category2 button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 125%; /* Adjust top position as needed */
+ right:11%; /* Adjust right position to align with h3 */
+  padding: 10px 20px;
+  background-color: #86593b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.category3 img {
+  position:absolute;
+  top:190%;
+   left:64%;
+   
+  width: 250px;
+  height: 250px; 
+  /* overflow: hidden; */
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.category3 h3{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#1a1919;
+  position:absolute;
+  top:220%;
+  left:70%;
+  font-weight:normal;
+  
+}
+
+/* .category3 button{
+  font-family: "Trebuchet MS", Helsvetica, sans-serif;
+  position: absolute;
+  top: 125%; /* Adjust top position as needed */
+ /* right:11%; Adjust right position to align with h3 */
+  /* padding: 10px 20px; */
+  /* background-color: #86593b; */
+  /* color: white;
+  border: none; */
+  /* cursor: pointer; */
+/* } */ */
+.text a {
+  color: #9D435A;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-right: 40px;
+  border: 3px solid #7e0725;
+  border-radius: 5px;
+}
+
+
+/* .text a:hover {
+  color: #fff;
+  border: 2px solid#fff;
+}
+
+ .text{
+   margin-top: 7%;
+ }
+ 
+span {
+  color: #773344;
+} */
+ 
+
+
+/* .social {
+  display: flex;
+  margin-top:50px;
+  margin-left: 740px;
+}
+
+.social a {
+  text-decoration: none;
+  color:#596475;
+  font-size: 30px;
+  margin: 0 5px;
+}
+
+.social a:hover {
+  color:#30011e;
+  transition: .5s;
+} */
+
+/* @media screen and (max-width:600px) {
+    .text h1 {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    text h3 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+   } */
